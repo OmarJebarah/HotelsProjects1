@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="600.0" style="-fx-background-color: #3f13e1;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotels.CustomerPageController">
+   <children>
+      <AnchorPane prefHeight="94.0" prefWidth="600.0" style="-fx-background-color: #fff700;">
+         <children>
+            <Label layoutX="212.0" layoutY="24.0" text="Our Hotels" textFill="#3f13e1">
+               <font>
+                  <Font name="Bodoni MT" size="38.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Button layoutX="42.0" layoutY="143.0" mnemonicParsing="false" onAction="#hotel1Rooms" style="-fx-background-color: #3f13e1;" text="Royal" textFill="#fff700" underline="true">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="42.0" layoutY="236.0" mnemonicParsing="false" onAction="#hotel2Rooms" style="-fx-background-color: #3f13e1;" text="Mövenpick" textFill="#fff700" underline="true">
+         <font>
+            <Font size="28.0" />
+         </font></Button>
+      <Button layoutX="42.0" layoutY="311.0" mnemonicParsing="false" onAction="#hotel3Rooms" style="-fx-background-color: #3f13e1;" text="Four Season" textFill="#fff700" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

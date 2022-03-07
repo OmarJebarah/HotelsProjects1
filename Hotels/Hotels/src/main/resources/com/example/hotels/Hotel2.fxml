@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="431.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotels.Hotel2Controller">
+    <children>
+        <AnchorPane layoutX="8.0" layoutY="6.0" prefHeight="431.0" prefWidth="198.0" style="-fx-background-color: #3f13e1;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="521.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Button layoutX="46.0" layoutY="262.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Add" />
+                <Button layoutX="46.0" layoutY="307.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Edit" />
+                <Button layoutX="46.0" layoutY="351.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Delete" />
+                <TextField fx:id="txt_name" layoutX="25.0" layoutY="35.0" promptText="Hotel Name" />
+                <TextField fx:id="txt_address" layoutX="25.0" layoutY="84.0" promptText="Address" />
+                <TextField fx:id="txt_evaluation" layoutX="25.0" layoutY="134.0" promptText="Evaluation" />
+            </children></AnchorPane>
+        <TableView fx:id="table_hotels" layoutX="198.0" prefHeight="431.0" prefWidth="522.0">
+            <columns>
+                <TableColumn fx:id="col_id" prefWidth="53.0" text="Id" />
+                <TableColumn fx:id="col_name" prefWidth="206.0" text="Name" />
+                <TableColumn fx:id="col_address" prefWidth="144.0" text="Address" />
+                <TableColumn fx:id="col_evaluation" prefWidth="118.0" text="Evaluation" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

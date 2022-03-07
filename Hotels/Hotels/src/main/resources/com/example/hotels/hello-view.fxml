@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="644.0" style="-fx-background-color: #2D3347;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotels.HelloController">
+   <children>
+      <Button fx:id="admin_log" layoutX="246.0" layoutY="251.0" mnemonicParsing="false" onAction="#adminLogin" prefHeight="17.0" prefWidth="152.0" style="-fx-background-color: #fff700;" text="Admin" textFill="#2d3347">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="116.0" layoutY="80.0" prefHeight="67.0" prefWidth="442.0" text="Welcome to our Web Site" textFill="#fff700">
+         <font>
+            <Font name="Bodoni MT" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="customer_log" layoutX="246.0" layoutY="307.0" mnemonicParsing="false" onAction="#customerLogin" prefHeight="34.0" prefWidth="152.0" style="-fx-background-color: #fff700;" text="Customer" textFill="#2d3347">
+         <font>
+            <Font name="Bodoni MT Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="261.0" layoutY="172.0" text="Sign In As" textFill="#fff700">
+         <font>
+            <Font name="Bodoni MT" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

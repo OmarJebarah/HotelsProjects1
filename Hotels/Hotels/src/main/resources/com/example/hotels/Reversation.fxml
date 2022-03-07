@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotels.ReversationController">
+   <children>
+      <TextField fx:id="txt_username" layoutX="211.0" layoutY="72.0" promptText="Name" />
+      <TextField fx:id="txt_phone" layoutX="211.0" layoutY="163.0" promptText="Phone" />
+      <TextField fx:id="txt_roomid" layoutX="211.0" layoutY="242.0" />
+      <Button layoutX="260.0" layoutY="306.0" mnemonicParsing="false" onAction="#reserve" text="Button" />
+   </children>
+</AnchorPane>

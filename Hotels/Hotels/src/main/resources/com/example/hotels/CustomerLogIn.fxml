@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fff700;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotels.CustomerLogInController">
+    <children>
+        <Label layoutX="245.0" layoutY="59.0" text="Log In" textFill="#3f13e1">
+            <font>
+                <Font name="Bodoni MT" size="39.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txt_user" layoutX="226.0" layoutY="161.0" promptText="User Name" />
+        <TextField fx:id="txt_password" layoutX="226.0" layoutY="216.0" promptText="Password" />
+        <Button fx:id="login" layoutX="245.0" layoutY="263.0" mnemonicParsing="false" onAction="#customerPage" prefHeight="25.0" prefWidth="111.0" style="-fx-background-color: #3f13e1;" text="Log In" textFill="#fff700">
+            <font>
+                <Font name="System Bold Italic" size="18.0" />
+            </font>
+        </Button>
+      <Label layoutX="95.0" layoutY="341.0" text="if you are new here please">
+         <font>
+            <Font name="Bodoni MT Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="signup" layoutX="276.0" layoutY="332.0" mnemonicParsing="false" onAction="#signUp" style="-fx-background-color: #fff700;" text="Sign Up" textFill="#3f13e1" underline="true">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

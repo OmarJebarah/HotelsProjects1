@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="422.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotels.AdminPageController">
+   <children>
+      <Label layoutX="241.0" layoutY="66.0" prefHeight="55.0" prefWidth="169.0" text="Welcome " AnchorPane.bottomAnchor="301.0" AnchorPane.leftAnchor="241.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="66.0">
+         <font>
+            <Font size="38.0" />
+         </font></Label>
+      <Button fx:id="allHotels" layoutX="237.0" layoutY="199.0" mnemonicParsing="false" onAction="#allHotels" prefHeight="25.0" prefWidth="195.0" text="All Hotels" />
+   </children>
+</AnchorPane>

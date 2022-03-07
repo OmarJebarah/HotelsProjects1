@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="411.0" prefWidth="649.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotels.MovinpickController">
+    <children>
+        <TableView fx:id="table_rooms" prefHeight="411.0" prefWidth="649.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="col_id" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="col_number" prefWidth="183.0" text="Room Number" />
+                <TableColumn fx:id="col_cost" prefWidth="190.0" text="Cost" />
+                <TableColumn fx:id="col_status" prefWidth="200.0" text="Status" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
